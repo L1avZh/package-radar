@@ -1,0 +1,13 @@
+{
+  "name": "package-radar",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Find every parcel in your inbox. Runs entirely in your browser.",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "check": "node scripts/check.js",
+    "start": "npx --yes http-server@14.1.1 . -p 8080 -c-1"
+  }
+}
